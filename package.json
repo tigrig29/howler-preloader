@@ -1,0 +1,10 @@
+{
+  "name": "js-audio-preloader",
+  "version": "0.0.1",
+  "description": "Preloads sound files in JavaScript",
+  "main": "index.js",
+  "homepage": "https://github.com/tigrig29/js-audio-preloader",
+  "repository": "https://github.com/tigrig29/js-audio-preloader.git",
+  "author": "TigRig <tigrig.crex@gmail.com>",
+  "license": "MIT"
+}
