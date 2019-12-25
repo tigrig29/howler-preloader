@@ -6,5 +6,12 @@
   "homepage": "https://github.com/tigrig29/js-audio-preloader",
   "repository": "https://github.com/tigrig29/js-audio-preloader.git",
   "author": "TigRig <tigrig.crex@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "mocha": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "power-assert": "^1.6.1"
+  }
 }
