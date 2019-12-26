@@ -1,5 +1,5 @@
 import assert = require('assert')
-import { add } from '../index'
+import { add } from '../dist/index'
 
 describe('サンプルテスト', () => {
   it('失敗するテスト', () => {

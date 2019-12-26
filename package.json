@@ -2,13 +2,18 @@
   "name": "js-audio-preloader",
   "version": "0.0.1",
   "description": "Preloads sound files in JavaScript",
-  "main": "index.js",
+  "main": "dist/index.js",
   "homepage": "https://github.com/tigrig29/js-audio-preloader",
   "repository": "https://github.com/tigrig29/js-audio-preloader.git",
   "author": "TigRig <tigrig.crex@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "mocha": "mocha --watch-extensions ts -w --require espower-typescript/guess test/**/*.ts"
+    "build": "tsc",
+    "mocha": "mocha --watch-extensions ts -w --require espower-typescript/guess test/**/*.ts",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
