@@ -10,5 +10,5 @@
     "newLine": "lf",
     "outDir": "dist"
   },
-  "exclude": ["test"]
+  "exclude": ["node_modules", "dist", "test"]
 }
