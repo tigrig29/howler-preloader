@@ -22,5 +22,9 @@
     "mocha": "^6.2.2",
     "power-assert": "^1.6.1",
     "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@types/howler": "^2.1.2",
+    "howler": "^2.1.3"
   }
 }
