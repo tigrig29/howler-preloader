@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "mocha": "mocha --watch-extensions ts -w --require espower-typescript/guess test/**/*.ts",
+    "test": "mocha --watch-extensions ts -w --require espower-typescript/guess test/**/*.ts",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
